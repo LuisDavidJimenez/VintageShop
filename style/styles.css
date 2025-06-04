@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background: #0f2027;
+  background: linear-gradient(to top, #da4453, #89216b);
+}
+
+img {
+  width: 10%;
+}
+
+header,
+footer {
+  padding-top: 10px;
+}
+
+header #logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  padding: 3px 5px;
+  background-color: green;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #5a3f37;
+  transition: color, color 0.6s;
+  transition: background-color 0.8s;
+}
+
+footer a {
+  color: white;
+}
